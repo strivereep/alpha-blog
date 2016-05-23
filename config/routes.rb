@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get 'index', to: 'pages#index'
+
+  #use resoureces to generate the all kinds of routes
+  resources :articles
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
