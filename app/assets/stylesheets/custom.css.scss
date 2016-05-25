@@ -36,7 +36,7 @@ $navbar-default-bg: #3ac569 ;
 	font-weight: bold;
 }
 
-.btn-lg {
+.btn-index {
 	font-size: 1.7em;
 	position: absolute;
 	bottom: 0;
@@ -45,6 +45,11 @@ $navbar-default-bg: #3ac569 ;
 }
 
 .btn-primary {
+	background-color: #3ac569;
+	border-color: #3ac569;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
 	background-color: #3ac569;
 	border-color: #3ac569;
 }
